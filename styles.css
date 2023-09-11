@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-size:1em;
+}
+body{
+    background-color: rgba(9, 77, 11, 0.584);
+    align-items: center;
+}
+.container{
+    padding:2em;
+    width:800px;
+    height:100vh;
+    margin:  0 auto;
+    background-color: rgba(162, 176, 56, 0.456);
+    border:10em black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+    text-decoration: dotted;
+}
+input{
+    padding:0.5em
+}
+
+.btn{
+    padding: 0.5em;
+    border-radius: 10px;
+}
+ul{
+    margin-top: 0.5em;
+
+}
+li{
+    font-size: 1.5em;
+}
+#removeBtn{
+    padding: 5px;
+    border-radius: 10px;
+}
